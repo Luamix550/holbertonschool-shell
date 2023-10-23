@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x,g+x,o+x hello
+if test -f hello; then chmod u+x hello; chmod g+x hello; chmod o+x hello; fi
