@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v '/sbin/nologin' /etc/passwd
+grep -v 'bin' /etc/passwd
