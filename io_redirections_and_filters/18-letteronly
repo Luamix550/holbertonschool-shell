@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc -type f -name '[ac]*'
+find '/etc/ssh/sshd_config' -type f -name '[ac]*'
